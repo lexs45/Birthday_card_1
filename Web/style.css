@@ -28,9 +28,13 @@ body{
 
 img.birthday{
     max-height: 40vh;
+    
 }
+
 .muted{
     opacity: 0.8;
+    font-weight: bold;
+    /* text-decoration: underline; */
 }
 
 .text{
@@ -46,6 +50,7 @@ img.birthday{
 @media (min-width :1000px){
     .card{
         flex-direction: row-reverse;
+        
     }
     .card img.birthday{
         width: 100%;
