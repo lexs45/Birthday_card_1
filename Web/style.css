@@ -40,7 +40,14 @@ img.birthday{
 .text{
     padding: 1em;
 }
-
+.text a{
+    color: black;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.text a:hover{
+    color: purple;
+}
 .space{
     height: 100px;
 }
